@@ -6,19 +6,20 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const projects = [
     {
-        title: "Salar de Atacama",
-        src: "salar_de_atacama.jpg"
+        title: "How We Work",
+        src: "salar_de_atacama.jpg",
+        link: "/www.linkedin.com"
     },
     {
-        title: "Valle de la luna",
+        title: "Services",
         src: "valle_de_la_muerte.jpeg"
     },
     {
-        title: "Miscanti Lake",
+        title: "About",
         src: "miscani_lake.jpeg"
     },
     {
-        title: "Miniques Lagoons",
+        title: "Get Started",
         src: "miniques_lagoon.jpg"
     },
 ]
@@ -51,10 +52,10 @@ export default function Index() {
                     />
                 </div>
                 <div className={styles.column}>
-                    <p>The flora is characterized by the presence of high elevation wetland, as well as yellow straw, broom sedge, tola de agua and tola amaia.</p>
+                    <p>Our approach is flexible, we can either modify one, or many components of your technology ecosystem.</p>
                 </div>
                 <div className={styles.column}>
-                    <p>Some, like the southern viscacha, vicuña and Darwins rhea, are classified as endangered species. Others, such as Andean goose, horned coot, Andean gull, puna tinamou and the three flamingo species inhabiting in Chile (Andean flamingo, Chilean flamingo, and Jamess flamingo) are considered vulnerable.</p>
+                    <p> Our solutions solve your problems, improve operational efficiency, and optimize resource utilization.</p>
                 </div>
             </div>
 
